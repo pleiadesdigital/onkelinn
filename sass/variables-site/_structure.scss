@@ -1,0 +1,25 @@
+/* $size__site-main: 100%;
+$size__site-sidebar: 25%; */
+
+// GRID (SUSY)
+$susy: (
+	columns: 12,
+	container: 1000px,
+	gutters: 1/2,
+	gutter-position: inside
+);
+
+// Breakpoint media queries
+$iphone: 480px;
+$tablet: 680px;
+$laptop: 960px;
+$desktop: 1200px;
+
+body {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: $snow;
+	font: $font-copy;
+	color: $black;
+}

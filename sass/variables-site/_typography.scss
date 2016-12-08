@@ -1,0 +1,31 @@
+$font__main: sans-serif;
+$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font__pre: "Courier 10 Pitch", Courier, monospace;
+$font__line-height-body: 1.5;
+$font__line-height-pre: 1.6;
+
+// FONTS
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400|Source+Sans+Pro:300,400,600');
+
+$copy: "Source Sans Pro", Georgia;
+$title: "Roboto", "Helvetica Neue";
+
+$thin: 300;
+$normal: 400;
+$medium: 500;
+$bold: 600;
+
+$font-copy: $thin 1em $copy;
+$font-title: $normal 1.5em $title; 
+
+// ICON FONTS
+@font-face {
+  font-family: 'flexslider-icon';
+  src:url('../fonts/webfonts/flexslider-icon.eot');
+  src:url('../fonts/webfonts/flexslider-icon.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/webfonts/flexslider-icon.woff') format('woff'),
+    url('../fonts/webfonts/flexslider-icon.ttf') format('truetype'),
+    url('../fonts/webfonts/flexslider-icon.svg#flexslider-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

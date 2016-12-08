@@ -1,0 +1,62 @@
+// ORIGINAL
+.sticky {
+	display: block;
+}
+.hentry {
+	margin: 0px;
+}
+.byline,
+.updated:not(.published){
+	display: none;
+}
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+// CONTENT
+.site-main {
+	h1 {
+		font-size: 3em;
+		text-transform: uppercase;
+		color: $black;
+		font-weight: $normal;
+		font-family: $title;
+		margin-bottom: 0.5em;
+		border-bottom: 1px solid #CCCCCC;
+	} //h1
+} //.site-main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

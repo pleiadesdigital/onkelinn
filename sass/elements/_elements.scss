@@ -1,0 +1,55 @@
+/* html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after { 
+	box-sizing: inherit;
+}
+ */
+
+@include border-box-sizing;
+
+body {
+
+}
+
+blockquote, q {
+	quotes: "" "";
+
+	&:before,
+	&:after {
+		content: "";
+	}
+}
+
+hr {
+	background-color: $color__background-hr;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+@import "lists";
+
+img {
+	height: auto; 
+	max-width: 100%; 
+}
+
+figure {
+	margin: 1em 0; 
+}
+
+@import "tables";
+
+
+
+
+
+
+
+
+
+
